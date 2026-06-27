@@ -36,7 +36,7 @@ export default function App() {
   }
 
   const handleDelete = (id: string) => {
-    setTransactions((current) => current.filter((t) => t.id !== id))
+    setTransactions((current) => current.filter((transaction) => transaction.id !== id))
   }
 
   const handleExport = () => {
