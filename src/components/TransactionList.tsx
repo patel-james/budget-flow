@@ -14,7 +14,7 @@ export default function TransactionList({ transactions, onDelete, hasAnyTransact
         <p className="text-slate-500 dark:text-slate-400">
           {hasAnyTransactions
             ? 'No transactions match your filters.'
-            : 'No transactions yet — add your first one above.'}
+            : 'No transactions yet -- add your first one above.'}
         </p>
       </div>
     )
